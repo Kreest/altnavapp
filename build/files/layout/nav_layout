@@ -1,0 +1,90 @@
+[
+  {
+    "dimension": {
+      "type": "rigid",
+      "width": 240,
+      "height": 240
+    },
+    "inversion": false,
+    "id": 0,
+    "placement": {
+      "type": "absolute",
+      "top": 0,
+      "left": 0
+    },
+    "visible": true,
+    "cross_alignment": 1,
+    "type": "container",
+    "direction": 1,
+    "main_alignment": 0
+  },
+  {
+    "inversion": false,
+    "id": 1,
+    "placement": {
+      "type": "absolute",
+      "top": 110,
+      "left": 213
+    },
+    "visible": true,
+    "draw_mode": 1,
+    "parent_id": 0,
+    "type": "image",
+    "image_name": "icHome"
+  },
+  {
+    "id": 2,
+    "parent_id": 0,
+    "type": "text",
+    "text": "#distance",
+    "ppem": 25,
+    "color": 3,
+    "ascent": 40,
+    "placement": {
+      "type": "relative"
+    },
+    "visible": true,
+    "inversion": false
+  },
+  {
+    "id": 3,
+    "parent_id": 0,
+    "type": "text",
+    "text": "#instruction",
+    "ppem": 20,
+    "color": 3,
+    "ascent": 30,
+    "placement": {
+      "type": "relative"
+    },
+    "visible": true,
+    "inversion": false
+  },
+  {
+    "inversion": false,
+    "id": 4,
+    "placement": {
+      "type": "absolute",
+      "top": 55,
+      "left": 30
+    },
+    "visible": true,
+    "draw_mode": 1,
+    "parent_id": 0,
+    "type": "image",
+    "image_name": "#image"
+  },
+  {
+    "id": 5,
+    "parent_id": 0,
+    "type": "image",
+    "image_name": "#button_bottom",
+    "visible": true,
+    "inversion": false,
+    "placement": {
+      "type": "absolute",
+      "left": 198,
+      "top": 160
+    }
+  }
+]
